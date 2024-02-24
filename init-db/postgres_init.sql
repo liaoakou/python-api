@@ -1,0 +1,6 @@
+CREATE TABLE query_log (
+    id SERIAL PRIMARY KEY,
+    domain VARCHAR(255) NOT NULL,
+    result VARCHAR(255) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

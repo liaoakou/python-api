@@ -1,0 +1,5 @@
+Flask
+Flask-RESTful
+prometheus-client
+Flask-SQLAlchemy
+psycopg2-binary
